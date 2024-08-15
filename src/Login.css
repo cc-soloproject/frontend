@@ -1,0 +1,74 @@
+.center-screen {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.login-container {
+  display: flex;
+  justify-content: center;
+}
+
+.loginPage {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.logo {
+  display: flex;
+  max-width: 80%;
+}
+
+.test-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.test-container {
+  margin-top: 20px;
+}
+
+.testBtn-level1,
+.testBtn-level2,
+.testBtn-level3 {
+  margin-top: 20px;
+  min-width: 200px;
+}
+
+.testBtn-level1 {
+  background-color: #ffc0b7;
+}
+
+.testBtn-level2 {
+  background-color: #ff8982;
+}
+
+.testBtn-level3 {
+  background-color: #c25450;
+}
+
+.btn {
+  margin: 15px;
+  padding: auto;
+  font-size: 13px;
+}
+
+.btn:hover,
+.testBtn-level1:hover,
+.testBtn-level2:hover,
+.testBtn-level3:hover {
+  background-color: #000;
+  color: #fff;
+  opacity: 0.2;
+}
+
+.btn:active,
+.testBtn-level1:active,
+.testBtn-level2:active,
+.testBtn-level3:active {
+  background-color: #000;
+  color: #fff;
+  opacity: 0.5;
+}
